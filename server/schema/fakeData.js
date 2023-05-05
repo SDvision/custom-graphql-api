@@ -34,6 +34,13 @@ const UserList = [
         username: "Warzone",
         nationality: "INDIA",
     },
+    {
+        id: 6,
+        name: "Ding dong",
+        age: 200,
+        username: "ding_ding",
+        nationality: "INDIA",
+    },
 ];
 
 const MovieList = [
