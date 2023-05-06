@@ -10,7 +10,7 @@ const StyledUserCard = styled.div`
     display: flex;
     color: white;
     flex-direction: column;
-    background-color: #A58CB3;
+    background-color: #2E8BC0;
     margin: 10px;
     padding: 30px;
     border-radius: 15px;
@@ -19,6 +19,10 @@ const StyledUserCard = styled.div`
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 10px #000;
+    :hover {
+        background-color: #0C2D48;
+        transition: 0.4s;
+    }
 `;
 
 export function UserCard(user) {
