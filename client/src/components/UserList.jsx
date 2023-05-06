@@ -10,7 +10,7 @@ const StyledUserListContainer = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 50px;
 `
 
 const FETCH_ALL_USERS = gql`
@@ -39,7 +39,7 @@ export function UserList() {
         <React.Fragment>
             <StyledUserListContainer>{
                 data && data.users?.map((user) => {
-                    console.log(user);
+                    // console.log(user);
                     return <UserCard {...user}/>
                 })
             }
